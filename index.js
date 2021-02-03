@@ -19,7 +19,6 @@ function Prompt(question, rl, answers) {
 util.inherits( Prompt, Base );
 
 Prompt.prototype.askForLoop = function() {
-    var message = ;
     var ui = inquirer.prompt({
         default: true,
         type:'confirm',
